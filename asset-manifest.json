@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/profile/static/css/main.c819dddb.css",
+    "main.js": "/profile/static/js/main.35808727.js",
+    "static/media/moon_night_clouds_115806_3840x2400.jpg": "/profile/static/media/moon_night_clouds_115806_3840x2400.9236779d09fc6f24e046.jpg",
+    "static/media/Screenshot 2024-05-08 180014.png": "/profile/static/media/Screenshot 2024-05-08 180014.e188de9732146dc448f8.png",
+    "static/media/Clipped_image_20240602_224206.png": "/profile/static/media/Clipped_image_20240602_224206.45e4af9f8e75deca4daf.png",
+    "index.html": "/profile/index.html",
+    "main.c819dddb.css.map": "/profile/static/css/main.c819dddb.css.map",
+    "main.35808727.js.map": "/profile/static/js/main.35808727.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c819dddb.css",
+    "static/js/main.35808727.js"
+  ]
+}
