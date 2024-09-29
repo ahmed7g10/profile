@@ -42,7 +42,7 @@ const About = () => {
               <>
               <AiFillFolderOpen className='about__icon'/>
               <h5>Projects</h5>
-              <small>25+ projects</small>
+              <small>100+ projects</small>
               </>
             )
           }/>
