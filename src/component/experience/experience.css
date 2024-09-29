@@ -1,0 +1,48 @@
+.experience__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+.experience__card{
+    padding: 2rem 4rem;
+}
+.experience__card h3{
+    color: var(--color-primary);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+}
+.skill {
+    display: flex;
+    gap: 1rem;
+}
+.skill .skill__icon{
+    margin-top: .5rem;
+   color: var(--color-primary);
+}
+@media screen and (max-width: 1024px) {
+    .experience__container{
+        grid-template-columns: 1fr;
+    }
+    .experience__card{
+        width: 80%;
+        padding: 2rem;
+        margin: 0 auto;
+    }
+    .skills{
+        gap: 1rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .experience__container{
+        gap: 1rem;
+    }
+    .experience__card{
+        width: 100%;
+        padding: 2rem qrem;
+    }
+}
