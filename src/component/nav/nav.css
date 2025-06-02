@@ -1,0 +1,101 @@
+.nav__menu{
+    position: fixed;
+    display: block;
+    bottom: 2rem;
+    width: max-content;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: .7rem 1.7rem;
+    border-radius: 999px;
+    z-index: 2;
+
+}
+.nav__menu {
+    display: flex;
+    gap: .8rem;
+    backdrop-filter: blur(16px);
+}
+.nav__menu  a{
+    padding: 0.9rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: 0.5s;
+    display: flex;
+    border-radius: 50%;
+    color: var(--color-light);
+    cursor: pointer;
+    
+}
+
+.nav__menu  a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.nav__menu a.active{
+    background: var(--color-primary);
+    color: var(--color-bg);
+
+}
+.nav__menu {
+    z-index: 10 ;
+}
+.modal{
+    position: fixed;
+    top: 0;
+    left:0 ;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.362);
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.modal__content{
+    width: var(--container-width-lg);
+    background-color:gray;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    padding:2rem;
+    border-radius: 10px;
+}
+
+.modal__close{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(90, 7, 7);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.modal__close:hover{
+    color: rgb(255, 255, 255);
+}
+.colors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;    
+
+}
+.green{
+    background: green !important;
+    border-color: greenyellow !important;
+}
+.red{
+    background: rgb(188, 44, 11) !important;
+    border-color: red !important;
+}
+
+.blue{
+    background: rgb(7, 116, 167) !important;
+    border-color: blue !important;
+}
+.purple{
+    background: rgb(122, 0, 116) !important;
+    border-color: purple !important;
+}

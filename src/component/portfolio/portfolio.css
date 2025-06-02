@@ -1,0 +1,29 @@
+.portfolio__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+} 
+.portfolio_img img{
+    border-radius: 1rem;
+}
+.portfolio__card h3{
+    margin: 1rem 0 2rem;
+
+}
+.profile__btn{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media screen and (max-width:1024px) {
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+}
+@media screen and (max-width:600px) {
+    .portfolio__container{
+        grid-template-columns: 1fr;
+    }
+}
